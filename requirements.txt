@@ -1,0 +1,41 @@
+
+# Core dependencies
+langchain>=0.1.0
+langchain-community>=0.0.20
+streamlit>=1.47.0
+python-dotenv>=1.0.0
+
+# Groq and model dependencies
+langchain-groq>=0.3.0
+groq>=0.30.0
+
+# Search tools
+ddgs>=9.5.0
+duckduckgo-search>=8.1.0  # For backward compatibility
+arxiv>=2.2.0
+wikipedia>=1.4.0
+
+# Document processing
+pypdf>=5.9.0
+pymupdf>=1.26.0
+bs4>=0.0.2
+
+# Vector stores and embeddings
+chromadb>=0.4.0
+faiss-cpu>=1.7.0
+sentence-transformers>=2.2.0
+langchain_chroma>=0.2.0
+
+# Additional utilities
+langchain-text-splitters>=0.0.1
+langchain_huggingface>=0.0.1
+langchain-ollama>=0.1.0
+duckdb>=0.9.0
+pandas>=2.0.0
+
+# Development tools (optional)
+ipykernel>=6.0.0  # Only needed if using Jupyter
+ipywidgets
+validators
+youtube_transcript_api
+numexpr
